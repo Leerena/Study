@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "name": "Serial Extensions",
+    "manifest_version": 2,
+	
+    "description": "The Serial Port Interface provide a simple API interface to interact with  your web application",
+	"app": {
+	    "background":{
+	        "scripts": ["js/background.js"]
+	    }
+    },
+  	"permissions":
+    [
+	    "serial"
+	],
+	"externally_connectable": {
+        "matches": ["*://*.example.com/*"]
+    }
+
+
+
+}
